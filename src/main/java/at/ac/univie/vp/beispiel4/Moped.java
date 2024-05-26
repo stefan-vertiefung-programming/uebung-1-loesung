@@ -12,7 +12,7 @@ public class Moped extends Kraftfahrzeug implements Einspurig {
     }
 
     @Override
-    public boolean hatPassendenHelm(Person person) {
-        return Helm.MOTORRAD_HELM.equals(person.getHelm());
+    public boolean istPassenderHelm(Helm helm) {
+        return Helm.MOTORRAD_HELM.equals(helm);
     }
 }

@@ -24,7 +24,7 @@ public class Fahrrad extends Fahrzeug implements Einspurig {
     }
 
     @Override
-    public boolean hatPassendenHelm(Person person) {
-        return Helm.FAHRRAD_HELM.equals(person.getHelm());
+    public boolean istPassenderHelm(Helm helm) {
+        return Helm.FAHRRAD_HELM.equals(helm);
     }
 }

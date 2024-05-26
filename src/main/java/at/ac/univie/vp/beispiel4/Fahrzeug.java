@@ -1,6 +1,6 @@
 package at.ac.univie.vp.beispiel4;
 
-public abstract class Fahrzeug implements Einspurig {
+public abstract class Fahrzeug {
 
     private final int gewichtInKg;
     private Person person;
