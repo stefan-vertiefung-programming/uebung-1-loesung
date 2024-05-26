@@ -1,4 +1,4 @@
-package at.ac.univie.vp.beispiel1;
+package at.ac.univie.vp.beispiel2;
 
 public class Fahrad extends Fahrzeug {
 
@@ -16,5 +16,10 @@ public class Fahrad extends Fahrzeug {
     @Override
     public String toString() {
         return "Fahrad{rahmengroesseInCm=" + rahmengroesseInCm + "} (" + super.toString() + ")";
+    }
+
+    @Override
+    public boolean kannReservieren(Person person) {
+        return true;
     }
 }

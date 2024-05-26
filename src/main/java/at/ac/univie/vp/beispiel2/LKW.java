@@ -1,4 +1,4 @@
-package at.ac.univie.vp.beispiel1;
+package at.ac.univie.vp.beispiel2;
 
 public class LKW extends Kraftfahrzeug {
 
@@ -16,5 +16,10 @@ public class LKW extends Kraftfahrzeug {
     @Override
     public String toString() {
         return "LKW{trailer=" + trailer + "} (" + super.toString() + ")";
+    }
+
+    @Override
+    public boolean kannReservieren(Person person) {
+        return "C".equals(person.getFuehrerSchein());
     }
 }

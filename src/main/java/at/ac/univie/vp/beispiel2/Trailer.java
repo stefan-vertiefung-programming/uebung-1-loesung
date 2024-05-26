@@ -1,4 +1,4 @@
-package at.ac.univie.vp.beispiel1;
+package at.ac.univie.vp.beispiel2;
 
 public class Trailer {
 

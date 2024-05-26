@@ -2,16 +2,10 @@ package at.ac.univie.vp.beispiel1;
 
 public abstract class Fahrzeug {
 
-    private final String fahrzeugNummer;
     private final int gewichtInKg;
 
-    public Fahrzeug(String fahrzeugNummer, int gewichtInKg) {
-        this.fahrzeugNummer = fahrzeugNummer;
+    public Fahrzeug(int gewichtInKg) {
         this.gewichtInKg = gewichtInKg;
-    }
-
-    public String getFahrzeugNummer() {
-        return fahrzeugNummer;
     }
 
     public int getGewichtInKg() {
@@ -20,6 +14,6 @@ public abstract class Fahrzeug {
 
     @Override
     public String toString() {
-        return "Fahrzeug{fahrzeugNummer='" + fahrzeugNummer + "', gewichtInKg=" + gewichtInKg + "}";
+        return "Fahrzeug{gewichtInKg=" + gewichtInKg + "}";
     }
 }
