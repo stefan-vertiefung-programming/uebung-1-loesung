@@ -3,11 +3,11 @@ package at.ac.univie.vp.beispiel2;
 public class Beispiel2Main {
 
     public static void main(String[] args) {
-        Fahrad fahrad = new Fahrad(8, 55);
-        Person fahradFahrer = new Person("Manu", null);
-        fahrad.reservieren(fahradFahrer);
+        Fahrrad fahrrad = new Fahrrad(8, 55);
+        Person fahrradFahrer = new Person("Manu", null);
+        fahrrad.reservieren(fahrradFahrer);
         System.out.println();
-        System.out.println(fahrad);
+        System.out.println(fahrrad);
 
         LKW lkw = new LKW(8160, "W-LKW1", new Trailer(1370, 270));
         Person lkwFahrer = new Person("Obi", "C");

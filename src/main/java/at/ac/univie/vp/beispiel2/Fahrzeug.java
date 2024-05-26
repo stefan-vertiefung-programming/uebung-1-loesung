@@ -13,7 +13,7 @@ public abstract class Fahrzeug {
         return gewichtInKg;
     }
 
-    public Person getFahrer() {
+    public Person getPerson() {
         return person;
     }
 

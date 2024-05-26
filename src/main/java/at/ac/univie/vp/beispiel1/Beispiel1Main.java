@@ -3,9 +3,9 @@ package at.ac.univie.vp.beispiel1;
 public class Beispiel1Main {
 
     public static void main(String[] args) {
-        Fahrad fahrad = new Fahrad(8, 55);
+        Fahrrad fahrrad = new Fahrrad(8, 55);
         System.out.println();
-        System.out.println(fahrad);
+        System.out.println(fahrrad);
 
         Trailer trailer = new Trailer(1370, 270);
         LKW lkw = new LKW(8160, "W-LKW1", trailer);
