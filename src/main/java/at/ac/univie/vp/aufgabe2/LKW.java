@@ -4,6 +4,11 @@ public class LKW extends Kraftfahrzeug {
 
     private final Trailer trailer;
 
+    public LKW(int gewichtInKg, String kennzeichen) {
+        super(gewichtInKg, kennzeichen);
+        this.trailer = null;
+    }
+
     public LKW(int gewichtInKg, String kennzeichen, Trailer trailer) {
         super(gewichtInKg, kennzeichen);
         this.trailer = trailer;
